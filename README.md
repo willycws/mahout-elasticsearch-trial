@@ -13,12 +13,12 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
   2. sudo dpkg -i elasticsearch-1.4.2.deb
   3. Configure config file - sudo nano /etc/elasticsearch/elasticsearch.yml
   ```bash
-  4. --------cluster.name: elasticsearch
-  5. --------node.name: "My First Node"
-  6. --------index.number_of_shards: 1
-  7. --------index.number_of_replicas: 0
-  8. --------path.data: /home/osboxes/Documents/elasticsearch-index
-  9. --------network.bind_host: localhost
-  10. --------http.cors.enabled: true
+    cluster.name: elasticsearch
+    node.name: "My First Node"
+    index.number_of_shards: 1
+    index.number_of_replicas: 0
+    path.data: /home/osboxes/Documents/elasticsearch-index
+    network.bind_host: localhost
+    http.cors.enabled: true
   ```
   4. Start/Stop Elasticsearch: sudo /etc/init.d/elasticsearch start or stop 
