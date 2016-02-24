@@ -9,9 +9,10 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 
 #### Setup procedure:
 ###### Elasticsearch 1.4.2
-1.wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.2.deb
+1. wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.2.deb
 2. sudo dpkg -i elasticsearch-1.4.2.deb
-3.Configure config file - sudo nano /etc/elasticsearch/elasticsearch.yml
+3. Configure config file - sudo nano /etc/elasticsearch/elasticsearch.yml
+4.
 ```
 - cluster.name: elasticsearch
 - node.name: "My First Node"
@@ -21,4 +22,4 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 - network.bind_host: localhost
 - http.cors.enabled: true
 ```
-4.Start/Stop Elasticsearch: sudo /etc/init.d/elasticsearch start or stop 
+5. Start/Stop Elasticsearch: sudo /etc/init.d/elasticsearch start or stop 
