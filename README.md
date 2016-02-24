@@ -22,4 +22,13 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 - http.cors.enabled: true
 ```
 4. Start/Stop Elasticsearch: sudo /etc/init.d/elasticsearch start or stop 
-5. ere
+ 
+###### Maven 3.0.5
+1. sudo apt-get install maven
+
+###### Apache Mahout 0.10.0
+1. Download the <a href="http://mirror.nus.edu.sg/apache/mahout/0.10.0/mahout-distribution-0.10.0-src.tar.gz">Mahout</a> ~/Downloads
+2. Untar mahout-distribution-0.10.0-src.tar.gz. Rename folder to mahout
+3. sudo mv ~/Downloads/mahout /opt
+4. cd /opt/mahout
+5. mvn install
