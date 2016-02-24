@@ -10,7 +10,7 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 #### Setup procedure:
 ###### Elasticsearch 1.4.2
 1.wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.2.deb
-2.sudo dpkg -i elasticsearch-1.4.2.deb
+2. sudo dpkg -i elasticsearch-1.4.2.deb
 3.Configure config file - sudo nano /etc/elasticsearch/elasticsearch.yml
 ```
 - cluster.name: elasticsearch
