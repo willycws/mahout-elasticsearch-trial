@@ -21,4 +21,4 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 - network.bind_host: localhost
 - http.cors.enabled: true
 ```
-4. Start/Stop Elasticsearch: sudo /etc/init.d/elasticsearch start or stop 
+Start/Stop Elasticsearch: sudo /etc/init.d/elasticsearch start or stop 
