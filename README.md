@@ -32,3 +32,11 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 3. sudo mv ~/Downloads/mahout /opt
 4. cd /opt/mahout
 5. mvn install
+6. Add mahout to the environment variables
+7. sudo nano /etc/environment
+```
+- MAHOUT_HOME=/opt/mahout/
+- Append to PATH variable: $MAHOUT_HOME/bin
+```
+8. Save the file
+9. source /etc/environment
