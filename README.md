@@ -13,7 +13,7 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
   2. sudo dpkg -i elasticsearch-1.4.2.deb
   3. Configure config file - sudo nano /etc/elasticsearch/elasticsearch.yml
   > cluster.name: elasticsearch
-  - node.name: "My First Node"
+> node.name: "My First Node"
     index.number_of_shards: 1
     index.number_of_replicas: 0
     path.data: /home/osboxes/Documents/elasticsearch-index
