@@ -9,6 +9,7 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 
 #### Resources
 - Download the movie dataset <a href="http://files.grouplens.org/datasets/movielens/ml-10m.zip">http://files.grouplens.org/datasets/movielens/ml-10m.zip</a>
+- Unzip to the mahout-elasticsearch-trial folder
 
 #### Setup procedure:
 ###### Elasticsearch 1.4.2
