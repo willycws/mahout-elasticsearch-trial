@@ -17,7 +17,7 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 - node.name: "My First Node"
 - index.number_of_shards: 1
 - index.number_of_replicas: 0
-- path.data: /home/osboxes/Documents/elasticsearch-index
+- path.data: ~/Documents/elasticsearch-index
 - network.bind_host: localhost
 - http.cors.enabled: true
 ```
