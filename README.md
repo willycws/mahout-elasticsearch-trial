@@ -6,6 +6,7 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 2. Elasticsearch 1.4.2
 3. Maven 3.0.5
 4. Apache Mahout 0.10.0
+5. Python 2.7.9
 
 #### Resources
 - Download the movie dataset <a href="http://files.grouplens.org/datasets/movielens/ml-10m.zip">http://files.grouplens.org/datasets/movielens/ml-10m.zip</a>
