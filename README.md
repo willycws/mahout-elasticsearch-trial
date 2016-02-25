@@ -40,3 +40,4 @@ Tryout mahout and elasticsearch POC on recommender system. Reference from <a hre
 ```
 8. Save the file
 9. source /etc/environment
+10. Test the installation - mahout 
